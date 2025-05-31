@@ -1,0 +1,16 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "pnotify": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.0"
+  }
+}

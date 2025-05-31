@@ -1,1 +1,1 @@
-# goit-js-hw-12-countries
+# hw_js34
