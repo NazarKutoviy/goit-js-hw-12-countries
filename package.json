@@ -1,17 +1,14 @@
 {
-  "name": "goit-js-hw-12-countries",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
-  },
   "dependencies": {
+    "@pnotify/core": "^5.2.0",
     "lodash.debounce": "^4.0.8",
-    "pnotify": "^5.2.0"
+    "parcel": "^2.15.2"
   },
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "parcel": "^2.9.3",
-    "prettier": "^3.0.0"
-  }
+  "scripts": {
+  "start": "parcel src/index.html",
+  "build": "parcel build src/index.html",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
 }
